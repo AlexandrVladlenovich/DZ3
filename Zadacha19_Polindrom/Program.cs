@@ -9,10 +9,10 @@ int i, remainder = 0, newnum = 0;
         }
         if (newnum == uinput)
         {
-            Console.WriteLine(" - число является полиндромом");
+            Console.WriteLine($" { uinput } - число является полиндромом");
         }
         else
         {
-            Console.WriteLine(" - число не является полиндромом");
+            Console.WriteLine($" { uinput } - число не является полиндромом");
         }
 Console.ReadKey();
